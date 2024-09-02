@@ -41,7 +41,7 @@ function showBoard(sqrNo) {
     }
     document.body.appendChild(container)
 
-    container.addEventListener('mouseover',(event) => {
+    container.addEventListener('mousemove',(event) => {
         const square = event.target;
         let bgColor = square.style.backgroundColor;
 
